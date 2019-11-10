@@ -1,6 +1,6 @@
 {
   "name": "@polinom.io/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Polinom.io default linter configuration",
   "main": "index.js",
   "scripts": {
@@ -21,14 +21,16 @@
     "url": "https://github.com/polinom-io/eslint-config/issues"
   },
   "homepage": "https://github.com/polinom-io/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-standard": "^4.0.1"
+  },
   "devDependencies": {
     "@polinom.io/prettier-config": "0.0.1",
     "eslint": "^6.6.0",
-    "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "prettier": "^1.19.1"
