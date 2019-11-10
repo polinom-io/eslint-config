@@ -1,5 +1,11 @@
 # @polinom.io/eslint-config Changelog
 
+## [0.0.4] - 2019-11-10
+
+### Added
+
+- Added Jest plugin by [@mespinozas](https://github.com/mespinozas).
+
 ## [0.0.3] - 2019-11-10
 
 ### Fixed
