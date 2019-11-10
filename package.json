@@ -8,17 +8,52 @@
   },
   "author": "mario@polinom.io",
   "license": "MIT",
-  "prettier": "@polinom.io/prettier-config",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/polinom-io/eslint-config.git"
   },
   "keywords": [
     "eslint",
+    "eslintconfig",
     "eslint-config"
   ],
   "bugs": {
     "url": "https://github.com/polinom-io/eslint-config/issues"
   },
-  "homepage": "https://github.com/polinom-io/eslint-config#readme"
+  "homepage": "https://github.com/polinom-io/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.19.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./index.js"
+    ]
+  },
+  "prettier": "@polinom.io/prettier-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }
