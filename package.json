@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/polinom-io/eslint-config#readme",
   "devDependencies": {
+    "@polinom.io/prettier-config": "0.0.1",
     "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
