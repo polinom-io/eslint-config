@@ -1,0 +1,24 @@
+{
+  "name": "@polinom.io/eslint-config",
+  "version": "0.0.1",
+  "description": "Polinom.io default linter configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mario@polinom.io",
+  "license": "MIT",
+  "prettier": "@polinom.io/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polinom-io/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "bugs": {
+    "url": "https://github.com/polinom-io/eslint-config/issues"
+  },
+  "homepage": "https://github.com/polinom-io/eslint-config#readme"
+}
