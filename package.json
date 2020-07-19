@@ -22,19 +22,21 @@
   },
   "homepage": "https://github.com/polinom-io/eslint-config#readme",
   "dependencies": {
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^23.0.3",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1"
   },
   "devDependencies": {
     "@polinom.io/prettier-config": "0.0.1",
-    "eslint": "^6.6.0",
-    "husky": "^3.0.9",
-    "lint-staged": "^9.4.2",
-    "prettier": "^1.19.1"
+    "eslint": "^7.5.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "tsutils": "^3.17.1",
+    "typescript": "^3.9.7"
   },
   "peerDependencies": {
     "eslint": ">= 5"
